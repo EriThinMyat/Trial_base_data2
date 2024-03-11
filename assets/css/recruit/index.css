@@ -1,0 +1,486 @@
+@font-face {
+    font-family: "Noto Sans JP Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Regular.woff2") format("woff2"), url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Regular.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Noto Sans JP Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Bold.woff2") format("woff2"), url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Bold.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Noto Sans JP Black";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Black.woff2") format("woff2"), url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Black.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Noto Sans JP Thin";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Thin.woff2") format("woff2"), url("/assets/font/NotoSansCJKJP/NotoSansCJKjp-Thin.woff") format("woff");
+    font-display: swap;
+  }
+
+  :root{
+    --dark__charcoal : #333333;
+    --grey__yellow : #afa07b;
+    --white : #ffffff;
+    --old__gold: #d3b04b;
+  }
+
+  .mt-30{
+    margin-top: 30px !important;
+  }
+
+  .mb-10{
+    margin-bottom: 10px !important;
+  }
+
+  .main{
+    line-height: 2 !important;
+  }
+
+
+  .main__inner__section{
+    width: 100%;
+  }
+
+  .main__keyVisual__image{
+    margin-top: 30px;
+  }
+  
+  .main__keyVisual__lead .main__keyVisual__title{
+    font-family: "Noto Sans JP Bold";
+    font-size: 30px !important;
+    text-align: center;
+    color:var(--dark__charcoal);
+    margin-bottom: 35px;
+  }
+
+  .main__keyVisual__text{
+    line-height: 2;
+  }
+
+  .main__section{
+    margin: 0 auto;
+    padding: 40px 35px 0;
+    text-align: left;
+  }
+
+  .main__section__item,.main__keyVisual__lead ,.main__section__jobCategory,.main__section__question{
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .main__section__Contents{
+    margin-bottom: 40px;
+  }
+
+  .main__section__Contents .section__title, .section__title{
+    font-family: "Noto Sans JP Bold";
+    font-size: 24px;
+    color: var(--dark__charcoal);
+  }
+
+  .main__section__Contents .section__text, .main__section__item .section__text{
+    font-family: "Noto Sans JP Regular";
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 10px;
+  }
+
+  .recuritTypes{
+    /* width: 1100px; */
+    margin: 40px auto !important;
+  }
+
+  .main__section__recuritTypes{
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .main__section__recuritTypes .item .item__inner{
+    width: 320px;
+  }
+
+  .item__inner .new__graduate{
+    width: 310px;
+    height: 41px;
+    background-image: url("/assets/img/recruit/graduate_shape01.png");
+    margin-top: 6px;
+    margin-left: 5px;
+  }
+
+  .item__inner .mid__career{
+    width: 310px;
+    height: 41px;
+    background-image: url("/assets/img/recruit/career_shape02.png");
+    margin-top: -14px;
+    margin-left: 6px;
+  }
+
+  .item__inner .coopsy__lab{
+    width: 310px;
+    height: 41px;
+    background-image: url("/assets/img/recruit/lab_shape03.png");
+    margin-top: -6px;
+    margin-left: 5px;
+  }
+
+  .item__inner .item__link .item__link__text{
+    font-family: "Noto Sans JP Bold";
+    font-size: 20px;
+    color: var(--white);
+    text-align: center;
+    
+  }
+
+  .item__inner .item__text{
+    font-family: "Noto Sans JP Regular";
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 5px;
+  }
+
+  .main__gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .main__gallery__item .gallery__item__inner{
+    display: flex;
+  }
+
+  .main__gallery .main__gallery__item .main__gallery__image{
+    width: 315px;
+    height: 316px;
+    
+  }
+
+  .main__section__jobCategory, .main__section__question{
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+  }
+
+  .jobCategory__partime, .jobCategory__internship,.question__internship,.question__partime{
+    width: 380px;
+  }
+
+  .main__section__jobCategory .section__text, .main__section__question .section__text{
+    margin: 20px 0;
+  }
+  
+
+  .main__section__jobCategory .sub, .main__section__question .sub{
+    font-family: "Noto Sans JP Bold";
+    font-size: 14px;
+    color: var(--dark__charcoal);
+  }
+
+  .main__section__jobCategory .section__jobCategory__title .title, .section__question__title .title{
+    font-family: "Noto Sans JP Black";
+    font-size: 46px;
+    color: var(--dark__charcoal);
+  }
+
+  .main__section__jobCategory .title, .title{
+    font-family: "Noto Sans JP Bold";
+    font-size: 24px;
+    color: var(--dark__charcoal);
+  }
+
+  .main__section__jobCategory .section__jobCategory__content,.main__section__question .section__question__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .section__jobCategory__content .jobCategory__partime__title::before{
+    width: 69px;
+    height: 69px;
+    content: "";
+    display: block;
+    background: url(/assets/img/recruit/job_category_icon01.png) 0 0 no-repeat;
+    background-size: 100%;
+    position: absolute;
+  }
+
+  .jobCategory__text,.question__text{
+    margin-left: 22%;
+  }
+
+  .main__section__jobCategory .jobCategory__link a,.question__link a{
+    font-size: 20px;
+  }
+
+  .section__jobCategory__content .jobCategory__internship__title::before{
+    width: 69px;
+    height: 69px;
+    content: "";
+    display: block;
+    background: url(/assets/img/recruit/job_category_icon02.png) 0 0 no-repeat;
+    background-size: 100%;
+    position: absolute;
+  }
+
+  .section__jobCategory__content .jobCategory__link a::after,.section__question__content .question__link a::after{
+    content: "";
+    display: inline-block;
+    border: 2px solid #333;
+    border-left-width: 0;
+    border-top-width: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    vertical-align: middle;
+    height: 8px;
+    width: 8px;
+    margin-left: 10px;
+  }
+
+  .question__partime .question__partime__title::before{
+    width: 69px;
+    height: 69px;
+    content: "";
+    display: block;
+    background: url(/assets/img/recruit/question_icon01.png) 0 0 no-repeat;
+    background-size: 100%;
+    position: absolute;
+  }
+
+  .question__internship .question__internship__title::before{
+    width: 69px;
+    height: 69px;
+    content: "";
+    display: block;
+    background: url(/assets/img/recruit/question_icon02.png) 0 0 no-repeat;
+    background-size: 100%;
+    position: absolute;
+  }
+
+
+
+  @media screen and (max-width: 767px){
+    .main{
+      max-width: 100%;
+    }
+    .main__section{
+      padding: 40px 40px 0 40px;
+    }
+
+    .main__keyVisual__lead{
+      width: auto;
+      font-size: 20px;
+    }
+
+    .main__keyVisual__title{
+      font-size: 30px;
+      padding: 0 !important;
+      line-height: 2;
+    }
+
+    .main__keyVisual__text{
+      font-size: 14px;
+    }
+
+    .main__keyVisual__image{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .main__section__item{
+      width: 100%;
+    }
+
+    .main__section__Contents .section__title, .section__title{
+      font-size: 16px;
+    }
+
+    .main__keyVisual__lead, .main__lead__text{
+      padding: 40px 35px 0;
+    }
+
+    .main__section__recuritTypes{
+      width: auto;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+
+    .main__section__recuritTypes .item{
+      margin-bottom: 50px;
+    }
+
+    .main__section__item,.main__keyVisual__text, .main__section__jobCategory, .main__section__question{
+      width: 100% !important;
+    }
+
+    .main__section__jobCategory .section__jobCategory__title .title, .section__question__title .title{
+      font-size: 30px;
+    }
+
+    .section__jobCategory__title .br,.section__question__title .br::before{
+        content: "\A"; 
+        white-space: pre; 
+    }
+
+    .main__section__jobCategory, .main__section__jobCategory .section__jobCategory__content{
+     padding-bottom: 40px;
+    }
+
+    .main__section__jobCategory .section__jobCategory__content,.main__section__question .section__question__content{
+      display: block;
+    }
+    
+
+    .main__section__jobCategory .jobCategory__partime,.main__section__question .question__partime{
+      margin-bottom: 40px;
+      padding: 0 0 20px 0;
+    }
+
+    .main__section__jobCategory .jobCategory__partime__title{
+      padding: 35px 0;
+    }
+
+    .jobCategory__partime, .jobCategory__internship, .question__internship, .question__partime {
+      width: 310px;
+    }
+
+  .jobCategory__text, .question__text {
+    margin-left: 29%;
+    }
+
+
+    .main__gallery{
+      display: block !important;
+    }
+
+
+    .main__gallery__item .main__gallery__image{
+      max-width: 65.5%;
+      height: auto !important;
+    }
+
+    .main__gallery__item .main__gallery__image img{
+      max-width: 100%;
+    }
+   
+   
+  }
+
+  @media screen and (max-width: 385px){
+    .main{
+      max-width: 100%;
+    }
+    .main__section{
+      padding: 40px 40px 0 40px;
+    }
+
+    .main__keyVisual__lead{
+      width: auto;
+      font-size: 20px;
+    }
+
+    .main__keyVisual__title{
+      font-size: 30px;
+      padding: 0 !important;
+      line-height: 2;
+    }
+
+    .main__keyVisual__text{
+      font-size: 14px;
+    }
+
+    .main__keyVisual__image{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .main__section__item{
+      width: 100%;
+    }
+
+    .main__section__Contents .section__title, .section__title{
+      font-size: 16px;
+    }
+
+    .main__keyVisual__lead, .main__lead__text{
+      padding: 40px 35px 0;
+    }
+
+    .main__section__recuritTypes{
+      width: auto;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+
+    .main__section__recuritTypes .item{
+      margin-bottom: 50px;
+    }
+
+    .main__section__item,.main__keyVisual__text, .main__section__jobCategory, .main__section__question{
+      width: 100% !important;
+    }
+
+    .main__section__jobCategory .section__jobCategory__title .title, .section__question__title .title{
+      font-size: 30px;
+    }
+
+    .section__jobCategory__title .br,.section__question__title .br::before{
+        content: "\A"; 
+        white-space: pre; 
+    }
+
+    .main__section__jobCategory, .main__section__jobCategory .section__jobCategory__content{
+     padding-bottom: 40px;
+    }
+
+    .main__section__jobCategory .section__jobCategory__content,.main__section__question .section__question__content{
+      display: block;
+    }
+    
+
+    .main__section__jobCategory .jobCategory__partime,.main__section__question .question__partime{
+      margin-bottom: 40px;
+      padding: 0 0 20px 0;
+    }
+
+    .main__section__jobCategory .jobCategory__partime__title{
+      padding: 35px 0;
+    }
+
+    .jobCategory__partime, .jobCategory__internship, .question__internship, .question__partime {
+      width: 310px;
+    }
+
+  .jobCategory__text, .question__text {
+    margin-left: 29%;
+    }
+
+
+    .main__gallery{
+      display: block !important;
+    }
+
+
+    .main__gallery__item .main__gallery__image{
+      max-width: 65.5%;
+      height: auto !important;
+    }
+
+    .main__gallery__item .main__gallery__image img{
+      max-width: 100%;
+    }
+   
+   
+  }
